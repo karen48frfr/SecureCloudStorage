@@ -1,0 +1,32 @@
+SecureCloudStorage/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── __init__.py
+│   ├── storage_manager.py
+│   ├── encryption.py
+│   ├── authentication.py
+│   └── utils.py
+├── config/
+│   └── config.yaml
+├── data/
+│   ├── user_data/
+│   └── storage_logs/
+├── scripts/
+│   ├── upload_file.py
+│   ├── download_file.py
+│   └── manage_users.py
+├── tests/
+│   ├── test_storage_manager.py
+│   ├── test_encryption.py
+│   ├── test_authentication.py
+│   └── test_utils.py
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
